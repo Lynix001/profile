@@ -202,7 +202,7 @@ export default function Home() {
         <h1 className="text-white kanit-semibold text-2xl">LynIxProSpec</h1>
         <div className="flex flex-col items-center justify-center">
           <div className="w-full">
-            <a className="text-white kanit-regular text-sm pr-1">🙏 สวัสดีครับ ผม &quot;ม่อน&quot; เป็นเจ้าของ</a>
+            <a className="text-white kanit-regular pr-1">🙏 สวัสดีครับ ผม &quot;ม่อน&quot; เป็นเจ้าของ</a>
 
             <a className="text-white kanit-semibold-italic text-sm">LynIx Group</a>
             <a className="text-white kanit-regular text-sm pl-1">และบริหารจัดการร้าน</a>
