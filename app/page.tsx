@@ -5,7 +5,7 @@ import { useEffect, useRef } from 'react';
 export default function Home() {
 
   const elementsRef = useRef<(HTMLElement | null)[]>([]);
-  const swiperRef = useRef<HTMLDivElement | null>(null);
+  // const swiperRef = useRef<HTMLDivElement | null>(null);
 
   useEffect(() => {
     const observerOptions = {
@@ -203,6 +203,7 @@ export default function Home() {
         <div className="flex flex-col items-center justify-center">
           <div className="w-full">
             <a className="text-white kanit-regular text-sm pr-1">🙏 สวัสดีครับ ผม &quot;ม่อน&quot; เป็นเจ้าของ</a>
+
             <a className="text-white kanit-semibold-italic text-sm">LynIx Group</a>
             <a className="text-white kanit-regular text-sm pl-1">และบริหารจัดการร้าน</a>
             <a className="text-white kanit-semibold-italic text-sm px-1">LynIx Store</a>
